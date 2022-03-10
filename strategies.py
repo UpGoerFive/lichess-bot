@@ -147,7 +147,7 @@ class PuzzledBot(MinimalEngine):
         """
         Plays best predicted move and displays board.
         """
-        model = models.load_model('LongModel.h5')
+        model = models.load_model('tuned_model.h5')
         options = list(board.legal_moves)
         fens = []
 
